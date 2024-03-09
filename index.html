@@ -1,24 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Fancy Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
     <style>
-        /* Add your custom CSS styles here */
         body {
+            background-color: #000;
+            color: #fff;
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        section {
+            padding: 50px 20px;
             text-align: center;
         }
-        h1 {
-            color: #007bff;
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        a {
+            color: #fff;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
     </style>
 </head>
+
 <body>
-    <h1>Welcome to My Fancy Website!</h1>
-    <p>This is where you can showcase your creativity, skills, and interests.</p>
-    <!-- Add more content, images, and sections as needed -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="projects">
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Description of your project goes here.</p>
+            <!-- Add an image related to your project -->
+            <img src="project1.jpg" alt="Project 1">
+        </div>
+
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Description of your second project goes here.</p>
+            <!-- Add an image related to your project -->
+            <img src="project2.jpg" alt="Project 2">
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
